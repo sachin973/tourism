@@ -27,12 +27,14 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "postinstall": "./install-chromium.sh",
     "build": "react-scripts build",
     "postbuild": "react-snap",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
   "reactSnap": {
+    "puppeteerExecutablePath": "/usr/bin/chromium-browser",
     "inlineCss": true,
     "minifyHtml": true
   },
