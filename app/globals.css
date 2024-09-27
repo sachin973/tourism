@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Metropolis', sans-serif;
+}
+.green-blue{
+  background: linear-gradient(90.74deg, rgba(47, 68, 177, 0.9) 4.28%, #26B961 111.78%);
+}
+.outline_button{
+  text-transform: capitalize !important;
+  text-align: center !important;
+  padding: 6px 20px !important;
+  border-radius: 6px !important;
+  border: 1px solid #F89828;
+  background: none;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+  .filled_button{
+  text-transform: capitalize !important;
+  text-align: center !important;
+  padding: 6px 20px !important;
+  border-radius: 6px !important;
+  background: #F89828 !important;
+  color: #fff !important;
+  font-size: 14px;
+  font-weight: 500;
+}
+@media (max-width: 1200px) {
+  .outline_button{
+      padding: 6px 5px !important; 
+  }
+  .filled_button{
+      padding: 6px 5px !important; 
+ 
+  }
+}
+.Register-button {
+  background-color: #ff9900;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  height: 35.6px;
+  margin-top: 26px;
+  padding: 5px 55px;
+}
