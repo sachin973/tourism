@@ -28,7 +28,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "postinstall": "./install-chromium.sh",
+    "postinstall": "chmod +x ./install-chromium.sh && ./install-chromium.sh",
     "build": "react-scripts build",
     "postbuild": "react-snap",
     "test": "react-scripts test",
